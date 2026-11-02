@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "lasonporta-searchrank_jd335"
+name = "lasonporta-operator_fusion_payoff_dedup"
 version = "0.1.0"
 description = "对内容做归一化与分片比对，找出搜索排序算法工程师·算子融合的收益边界上的重复项并按相似度归并"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://lasonporta.github.io"
-Repository = "https://github.com/lasonporta/searchrank_jd335"
-Issues = "https://github.com/lasonporta/searchrank_jd335/issues"
+Repository = "https://github.com/lasonporta/operator_fusion_payoff_dedup"
+Issues = "https://github.com/lasonporta/operator_fusion_payoff_dedup/issues"
 
 [project.scripts]
-searchrank_jd335 = "searchrank_jd335:main"
+operator_fusion_payoff_dedup = "operator_fusion_payoff_dedup:main"
 
 [tool.setuptools]
-py-modules = ["searchrank_jd335"]
+py-modules = ["operator_fusion_payoff_dedup"]

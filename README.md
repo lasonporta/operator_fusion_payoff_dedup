@@ -1,11 +1,11 @@
-# searchrank_jd335
+# operator_fusion_payoff_dedup
 
 **在搜索排序算法工程师·算子融合的收益边界里找出重复内容并给出归并建议。**
 
-`searchrank_jd335` —— 对内容做归一化与分片比对，找出搜索排序算法工程师·算子融合的收益边界上的重复项并按相似度归并
+`operator_fusion_payoff_dedup` —— 对内容做归一化与分片比对，找出搜索排序算法工程师·算子融合的收益边界上的重复项并按相似度归并
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`searchrank_jd335.py` 拷走就能用
+- 单文件，`operator_fusion_payoff_dedup.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install lasonporta-searchrank_jd335
+pip install lasonporta-operator_fusion_payoff_dedup
 ```
 
 装完直接用命令名调用：
 
 ```bash
-searchrank_jd335 --help
+operator_fusion_payoff_dedup --help
 ```
 
-也可以不用安装，直接把 `searchrank_jd335.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `operator_fusion_payoff_dedup.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ searchrank_jd335 --help
 ## 用法
 
 ```bash
-python searchrank_jd335.py --file input.txt
-python searchrank_jd335.py --text "示例内容"
-python searchrank_jd335.py --file input.txt --json
+python operator_fusion_payoff_dedup.py --file input.txt
+python operator_fusion_payoff_dedup.py --text "示例内容"
+python operator_fusion_payoff_dedup.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python searchrank_jd335.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_searchrank_jd335.py
+python test_operator_fusion_payoff_dedup.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_searchrank_jd335.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/lasonporta/searchrank_jd335>
+- GitHub 仓库：<https://github.com/lasonporta/operator_fusion_payoff_dedup>
 
 ---
 
@@ -79,7 +79,7 @@ python test_searchrank_jd335.py
 lasonporta 做搜索排序算法工程师·算子融合的收益边界相关的问题，方向对标微软的负责人搜索排序算法工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://lasonporta.github.io>
-- 仓库：<https://github.com/lasonporta/searchrank_jd335>
+- 仓库：<https://github.com/lasonporta/operator_fusion_payoff_dedup>
 
 ## 许可
 
